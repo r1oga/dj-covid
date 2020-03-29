@@ -21,20 +21,22 @@ line-height: 55px;
 
 const Touch = props => {
   const playSound = ({ target }) => {
-    const keyCode = target.children[3].id
+    const keyCode = target.children[0].id
     const audio = document.getElementById(keyCode)
 
     if (!audio) return
     audio.currentTime = 0
     audio.play()
+
+    document.getElementById('display').innerHTML = props.name
   }
   return (
-    <Div onClick={playSound}>
-      <Span role='img' aria-label='mask emoji'>{props.emoji + ' '}</Span>
-      <Span>{props.letter}</Span>
-      <p style={{ color: 'white' }}>{props.name}</p>
-      <audio id={props.code} src={props.url} />
-    </Div>
+    <>
+      <Div className='drum-pad' id={props.name} onClick={playSound}>
+        {props.letter}
+        <audio className='clip' id={props.letter} src={props.url} />
+      </Div>
+    </>
   )
 }
 

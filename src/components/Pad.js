@@ -11,7 +11,8 @@ flex-flow: row wrap;
 
 const Pad = () => {
   const playSound = ({ keyCode }) => {
-    const audio = document.getElementById(keyCode)
+    const key = fx.filter(e => e.code == keyCode)
+    const audio = document.getElementById(key[0].letter)
 
     if (!audio) return
     audio.currentTime = 0
@@ -22,7 +23,7 @@ const Pad = () => {
     window.addEventListener('keydown', playSound)
   }, [])
   return (
-    <Flex>
+    <Flex id='display'>
       {
         fx.map((fx, i) => {
           return (

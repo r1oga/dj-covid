@@ -5,8 +5,9 @@ import Pad from './components/Pad'
 
 function App () {
   return (
-    <div className='App'>
+    <div className='App' id='drum-machine'>
       <Layout>
+        <p id='display' />
         <Pad />
       </Layout>
     </div>

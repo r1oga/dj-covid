@@ -30,7 +30,7 @@ export default [
   {
     letter: 'S',
     emoji: '🚒',
-    name: 'Drive By',
+    name: 'DriveBy',
     url: 'https://raw.githubusercontent.com/r1oga/dj-covid/master/public/sounds/DriveBy.wav',
     code: 83
   },
