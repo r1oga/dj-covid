@@ -20,8 +20,16 @@ line-height: 55px;
 `
 
 const Touch = props => {
+  const playSound = ({ target }) => {
+    const keyCode = target.children[3].id
+    const audio = document.getElementById(keyCode)
+
+    if (!audio) return
+    audio.currentTime = 0
+    audio.play()
+  }
   return (
-    <Div>
+    <Div onClick={playSound}>
       <Span role='img' aria-label='mask emoji'>{props.emoji + ' '}</Span>
       <Span>{props.letter}</Span>
       <p style={{ color: 'white' }}>{props.name}</p>
