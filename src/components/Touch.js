@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Touch = props => {
   const Div = styled.div`
-    background-color: grey;
+    background-color: rgb(99, 190, 135);
     border-radius: 5px;
     box-shadow: black 3 3 5;
     height: 80px;
@@ -12,10 +12,18 @@ const Touch = props => {
     margin: 10px;
     vertical-align: middle;
     text-align: center;
+    font-family: monospace
+  `
+  const Span = styled.span`
+    color: rgb(195, 67, 67);
+    font-size: 2em;
+    line-height: 55px;
   `
   return (
     <Div>
-      <span style={{ lineHeight: '80px' }}>{props.letter}</span>
+      <Span role='img' aria-label='mask emoji'>{props.emoji + ' '}</Span>
+      <Span>{props.letter}</Span>
+      <p style={{ color: 'white' }}>{props.name}</p>
     </Div>
   )
 }

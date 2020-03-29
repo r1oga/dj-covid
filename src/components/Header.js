@@ -5,7 +5,9 @@ const Header = () => {
     <div>
       <div className='ui divider horizontal'>
         <div className='ui center aligned segment basic'>
-          Drum Machine
+          <span role='img' aria-label='virus'>🦠{' '}</span>
+          DJ COVID
+          <span role='img' aria-label='virus'>{' '}🦠</span>
         </div>
       </div>
     </div>

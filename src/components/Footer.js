@@ -6,14 +6,22 @@ const Footer = () => {
       <div className='ui segment basic center aligned'>
         <p>
          Developed with {' '}
-          <a href='https://reactjs.org/' target='_blank'>
+          <a
+            href='https://reactjs.org/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <i
               aria-hidden='true'
               className='react icon large'
             />
           </a>
          by {' '}
-          <a href='https://github.com/r1oga' target='_blank'>
+          <a
+            href='https://github.com/r1oga'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
                @r1oga
           </a>
         </p>
