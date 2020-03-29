@@ -31,7 +31,12 @@ const Footer = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <Icon name='github' size='large' color='black' />
+            <i
+              aria-hidden='true'
+              className='icon github large'
+              size='large'
+              color='black'
+            />
           </a>
         </p>
       </div>
