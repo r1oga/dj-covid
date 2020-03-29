@@ -18,11 +18,20 @@ const Footer = () => {
           </a>
          by {' '}
           <a
-            href='https://github.com/r1oga'
+            href='https://twitter.com/r1oga'
             target='_blank'
             rel='noopener noreferrer'
           >
                @r1oga
+          </a>
+        </p>
+        <p>
+          <a
+            href='https://github.com/r1oga/dj-covid'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Icon name='github' size='large' color='black' />
           </a>
         </p>
       </div>
