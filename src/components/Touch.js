@@ -9,14 +9,15 @@ height: 80px;
 width: 100px;
 flex: 1 30%;
 margin: 10px;
-vertical-align: middle;
 text-align: center;
 font-family: monospace
 `
 const Span = styled.span`
 color: rgb(195, 67, 67);
 font-size: 2em;
-line-height: 55px;
+font-weight: bold;
+line-height: 80px;
+vertical-align: middle;
 `
 
 const Touch = props => {
@@ -33,7 +34,7 @@ const Touch = props => {
   return (
     <>
       <Div className='drum-pad' id={props.name} onClick={playSound}>
-        {props.letter}
+        <Span>{props.letter}</Span>
         <audio className='clip' id={props.letter} src={props.url} />
       </Div>
     </>
