@@ -8,7 +8,7 @@ const Footer = () => {
     >
       <div
         className='ui segment basic center aligned'
-        style={{ color: 'white' }}
+        style={{ color: 'white', paddingTop: '7px' }}
       >
         <p>
          Developed with {' '}
