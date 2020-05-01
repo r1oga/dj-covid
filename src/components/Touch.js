@@ -2,7 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Div = styled.div`
-background-color: rgb(99, 190, 135);
+border-style: outset;
+border-color: #DBDBDB;
 border-radius: 5px;
 box-shadow: black 3 3 5;
 height: 80px;
@@ -13,7 +14,7 @@ text-align: center;
 font-family: monospace
 `
 const Span = styled.span`
-color: rgb(195, 67, 67);
+color: #F23F52;
 font-size: 2em;
 font-weight: bold;
 line-height: 80px;
@@ -22,14 +23,11 @@ vertical-align: middle;
 
 const Touch = props => {
   const playSound = ({ target }) => {
-    const keyCode = target.children[0].id
+    const keyCode = target.children[0].innerHTML
     const audio = document.getElementById(keyCode)
-
     if (!audio) return
     audio.currentTime = 0
     audio.play()
-
-    document.getElementById('display').innerHTML = props.name
   }
   return (
     <>
