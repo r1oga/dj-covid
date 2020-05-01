@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/dj-covid/static/js/main.cb2d2c22.chunk.js",
-    "main.js.map": "/dj-covid/static/js/main.cb2d2c22.chunk.js.map",
+    "main.js": "/dj-covid/static/js/main.dbf63a2b.chunk.js",
+    "main.js.map": "/dj-covid/static/js/main.dbf63a2b.chunk.js.map",
     "runtime-main.js": "/dj-covid/static/js/runtime-main.c8f56774.js",
     "runtime-main.js.map": "/dj-covid/static/js/runtime-main.c8f56774.js.map",
     "static/js/2.2435b256.chunk.js": "/dj-covid/static/js/2.2435b256.chunk.js",
     "static/js/2.2435b256.chunk.js.map": "/dj-covid/static/js/2.2435b256.chunk.js.map",
     "index.html": "/dj-covid/index.html",
-    "precache-manifest.a6ac8b6026e94ffb7f8ec72d1dc50e5c.js": "/dj-covid/precache-manifest.a6ac8b6026e94ffb7f8ec72d1dc50e5c.js",
+    "precache-manifest.c1bcab87a8f2a14a81e98b60b8d9fd4b.js": "/dj-covid/precache-manifest.c1bcab87a8f2a14a81e98b60b8d9fd4b.js",
     "service-worker.js": "/dj-covid/service-worker.js",
     "static/js/2.2435b256.chunk.js.LICENSE.txt": "/dj-covid/static/js/2.2435b256.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c8f56774.js",
     "static/js/2.2435b256.chunk.js",
-    "static/js/main.cb2d2c22.chunk.js"
+    "static/js/main.dbf63a2b.chunk.js"
   ]
 }
