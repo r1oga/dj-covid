@@ -11,7 +11,8 @@ width: 100px;
 flex: 1 30%;
 margin: 10px;
 text-align: center;
-font-family: monospace
+font-family: monospace;
+cursor: pointer;
 `
 const Span = styled.span`
 color: #F23F52;
