@@ -3,7 +3,10 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='ui horizontal divider'>
-      <div className='ui segment basic center aligned'>
+      <div
+        className='ui segment basic center aligned'
+        style={{ color: 'white' }}
+      >
         <p>
          Developed with {' '}
           <a

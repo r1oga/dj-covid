@@ -11,7 +11,7 @@ flex-flow: row wrap;
 
 const Pad = () => {
   const playSound = ({ keyCode }) => {
-    const key = fx.filter(e => e.code == keyCode)
+    const key = fx.filter(e => e.code === keyCode)
     const audio = document.getElementById(key[0].letter)
 
     if (!audio) return
