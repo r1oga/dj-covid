@@ -6,7 +6,7 @@ border-style: outset;
 border-color: #DBDBDB;
 border-radius: 5px;
 box-shadow: black 3 3 5;
-height: 70px;
+height: 60px;
 width: 100px;
 flex: 1 30%;
 margin: 10px;
@@ -18,7 +18,7 @@ const Span = styled.span`
 color: #F23F52;
 font-size: 2em;
 font-weight: bold;
-line-height: 70px;
+line-height: 60px;
 vertical-align: middle;
 `
 
