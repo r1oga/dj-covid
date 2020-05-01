@@ -3,7 +3,10 @@ import React from 'react'
 const Header = () => {
   return (
     <div>
-      <div className='ui divider horizontal'>
+      <div
+        className='ui divider horizontal'
+        style={{ marginBottom: '0' }}
+      >
         <div
           className='ui center aligned segment basic'
           style={{ color: '#DBDBDB' }}
